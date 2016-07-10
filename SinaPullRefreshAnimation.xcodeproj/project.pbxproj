@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54D54151D32262500479183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D54141D32262500479183 /* main.m */; };
+		F54D54181D32262500479183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D54171D32262500479183 /* AppDelegate.m */; };
+		F54D541B1D32262500479183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D541A1D32262500479183 /* ViewController.m */; };
+		F54D541E1D32262500479183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54D541C1D32262500479183 /* Main.storyboard */; };
+		F54D54211D32262500479183 /* SinaPullRefreshAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F54D541F1D32262500479183 /* SinaPullRefreshAnimation.xcdatamodeld */; };
+		F54D54231D32262500479183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54D54221D32262500479183 /* Assets.xcassets */; };
+		F54D54261D32262500479183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54D54241D32262500479183 /* LaunchScreen.storyboard */; };
+		F54D54311D32262500479183 /* SinaPullRefreshAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D54301D32262500479183 /* SinaPullRefreshAnimationTests.m */; };
+		F54D543C1D32262500479183 /* SinaPullRefreshAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D543B1D32262500479183 /* SinaPullRefreshAnimationUITests.m */; };
+		F54D544E1D323FB100479183 /* SinaPullRefreshAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D544D1D323FB100479183 /* SinaPullRefreshAnimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F54D542D1D32262500479183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54D54081D32262500479183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54D540F1D32262500479183;
+			remoteInfo = SinaPullRefreshAnimation;
+		};
+		F54D54381D32262500479183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54D54081D32262500479183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54D540F1D32262500479183;
+			remoteInfo = SinaPullRefreshAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F54D54101D32262500479183 /* SinaPullRefreshAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaPullRefreshAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54D54141D32262500479183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F54D54161D32262500479183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F54D54171D32262500479183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F54D54191D32262500479183 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F54D541A1D32262500479183 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F54D541D1D32262500479183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F54D54201D32262500479183 /* SinaPullRefreshAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SinaPullRefreshAnimation.xcdatamodel; sourceTree = "<group>"; };
+		F54D54221D32262500479183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F54D54251D32262500479183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F54D54271D32262500479183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54D542C1D32262500479183 /* SinaPullRefreshAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaPullRefreshAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54D54301D32262500479183 /* SinaPullRefreshAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaPullRefreshAnimationTests.m; sourceTree = "<group>"; };
+		F54D54321D32262500479183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54D54371D32262500479183 /* SinaPullRefreshAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaPullRefreshAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54D543B1D32262500479183 /* SinaPullRefreshAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaPullRefreshAnimationUITests.m; sourceTree = "<group>"; };
+		F54D543D1D32262500479183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54D544C1D323FB100479183 /* SinaPullRefreshAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaPullRefreshAnimationView.h; sourceTree = "<group>"; };
+		F54D544D1D323FB100479183 /* SinaPullRefreshAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaPullRefreshAnimationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54D540D1D32262500479183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54D54291D32262500479183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54D54341D32262500479183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54D54071D32262500479183 = {
+			isa = PBXGroup;
+			children = (
+				F54D54121D32262500479183 /* SinaPullRefreshAnimation */,
+				F54D542F1D32262500479183 /* SinaPullRefreshAnimationTests */,
+				F54D543A1D32262500479183 /* SinaPullRefreshAnimationUITests */,
+				F54D54111D32262500479183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54D54111D32262500479183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54D54101D32262500479183 /* SinaPullRefreshAnimation.app */,
+				F54D542C1D32262500479183 /* SinaPullRefreshAnimationTests.xctest */,
+				F54D54371D32262500479183 /* SinaPullRefreshAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54D54121D32262500479183 /* SinaPullRefreshAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F54D54161D32262500479183 /* AppDelegate.h */,
+				F54D54171D32262500479183 /* AppDelegate.m */,
+				F54D54191D32262500479183 /* ViewController.h */,
+				F54D541A1D32262500479183 /* ViewController.m */,
+				F54D544C1D323FB100479183 /* SinaPullRefreshAnimationView.h */,
+				F54D544D1D323FB100479183 /* SinaPullRefreshAnimationView.m */,
+				F54D541C1D32262500479183 /* Main.storyboard */,
+				F54D54221D32262500479183 /* Assets.xcassets */,
+				F54D54241D32262500479183 /* LaunchScreen.storyboard */,
+				F54D54271D32262500479183 /* Info.plist */,
+				F54D541F1D32262500479183 /* SinaPullRefreshAnimation.xcdatamodeld */,
+				F54D54131D32262500479183 /* Supporting Files */,
+			);
+			path = SinaPullRefreshAnimation;
+			sourceTree = "<group>";
+		};
+		F54D54131D32262500479183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54D54141D32262500479183 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F54D542F1D32262500479183 /* SinaPullRefreshAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F54D54301D32262500479183 /* SinaPullRefreshAnimationTests.m */,
+				F54D54321D32262500479183 /* Info.plist */,
+			);
+			path = SinaPullRefreshAnimationTests;
+			sourceTree = "<group>";
+		};
+		F54D543A1D32262500479183 /* SinaPullRefreshAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F54D543B1D32262500479183 /* SinaPullRefreshAnimationUITests.m */,
+				F54D543D1D32262500479183 /* Info.plist */,
+			);
+			path = SinaPullRefreshAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54D540F1D32262500479183 /* SinaPullRefreshAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54D54401D32262500479183 /* Build configuration list for PBXNativeTarget "SinaPullRefreshAnimation" */;
+			buildPhases = (
+				F54D540C1D32262500479183 /* Sources */,
+				F54D540D1D32262500479183 /* Frameworks */,
+				F54D540E1D32262500479183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinaPullRefreshAnimation;
+			productName = SinaPullRefreshAnimation;
+			productReference = F54D54101D32262500479183 /* SinaPullRefreshAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F54D542B1D32262500479183 /* SinaPullRefreshAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54D54431D32262500479183 /* Build configuration list for PBXNativeTarget "SinaPullRefreshAnimationTests" */;
+			buildPhases = (
+				F54D54281D32262500479183 /* Sources */,
+				F54D54291D32262500479183 /* Frameworks */,
+				F54D542A1D32262500479183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54D542E1D32262500479183 /* PBXTargetDependency */,
+			);
+			name = SinaPullRefreshAnimationTests;
+			productName = SinaPullRefreshAnimationTests;
+			productReference = F54D542C1D32262500479183 /* SinaPullRefreshAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F54D54361D32262500479183 /* SinaPullRefreshAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54D54461D32262500479183 /* Build configuration list for PBXNativeTarget "SinaPullRefreshAnimationUITests" */;
+			buildPhases = (
+				F54D54331D32262500479183 /* Sources */,
+				F54D54341D32262500479183 /* Frameworks */,
+				F54D54351D32262500479183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54D54391D32262500479183 /* PBXTargetDependency */,
+			);
+			name = SinaPullRefreshAnimationUITests;
+			productName = SinaPullRefreshAnimationUITests;
+			productReference = F54D54371D32262500479183 /* SinaPullRefreshAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54D54081D32262500479183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zdrjson;
+				TargetAttributes = {
+					F54D540F1D32262500479183 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F54D542B1D32262500479183 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F54D540F1D32262500479183;
+					};
+					F54D54361D32262500479183 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F54D540F1D32262500479183;
+					};
+				};
+			};
+			buildConfigurationList = F54D540B1D32262500479183 /* Build configuration list for PBXProject "SinaPullRefreshAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F54D54071D32262500479183;
+			productRefGroup = F54D54111D32262500479183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54D540F1D32262500479183 /* SinaPullRefreshAnimation */,
+				F54D542B1D32262500479183 /* SinaPullRefreshAnimationTests */,
+				F54D54361D32262500479183 /* SinaPullRefreshAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F54D540E1D32262500479183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54D54261D32262500479183 /* LaunchScreen.storyboard in Resources */,
+				F54D54231D32262500479183 /* Assets.xcassets in Resources */,
+				F54D541E1D32262500479183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54D542A1D32262500479183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54D54351D32262500479183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54D540C1D32262500479183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54D54211D32262500479183 /* SinaPullRefreshAnimation.xcdatamodeld in Sources */,
+				F54D544E1D323FB100479183 /* SinaPullRefreshAnimationView.m in Sources */,
+				F54D541B1D32262500479183 /* ViewController.m in Sources */,
+				F54D54181D32262500479183 /* AppDelegate.m in Sources */,
+				F54D54151D32262500479183 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54D54281D32262500479183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54D54311D32262500479183 /* SinaPullRefreshAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54D54331D32262500479183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54D543C1D32262500479183 /* SinaPullRefreshAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F54D542E1D32262500479183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54D540F1D32262500479183 /* SinaPullRefreshAnimation */;
+			targetProxy = F54D542D1D32262500479183 /* PBXContainerItemProxy */;
+		};
+		F54D54391D32262500479183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54D540F1D32262500479183 /* SinaPullRefreshAnimation */;
+			targetProxy = F54D54381D32262500479183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F54D541C1D32262500479183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54D541D1D32262500479183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F54D54241D32262500479183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54D54251D32262500479183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F54D543E1D32262500479183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F54D543F1D32262500479183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54D54411D32262500479183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SinaPullRefreshAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.SinaPullRefreshAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F54D54421D32262500479183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SinaPullRefreshAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.SinaPullRefreshAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F54D54441D32262500479183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SinaPullRefreshAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.SinaPullRefreshAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaPullRefreshAnimation.app/SinaPullRefreshAnimation";
+			};
+			name = Debug;
+		};
+		F54D54451D32262500479183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SinaPullRefreshAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.SinaPullRefreshAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinaPullRefreshAnimation.app/SinaPullRefreshAnimation";
+			};
+			name = Release;
+		};
+		F54D54471D32262500479183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SinaPullRefreshAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.SinaPullRefreshAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinaPullRefreshAnimation;
+			};
+			name = Debug;
+		};
+		F54D54481D32262500479183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SinaPullRefreshAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zdrjson.github.com.SinaPullRefreshAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinaPullRefreshAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54D540B1D32262500479183 /* Build configuration list for PBXProject "SinaPullRefreshAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54D543E1D32262500479183 /* Debug */,
+				F54D543F1D32262500479183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54D54401D32262500479183 /* Build configuration list for PBXNativeTarget "SinaPullRefreshAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54D54411D32262500479183 /* Debug */,
+				F54D54421D32262500479183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F54D54431D32262500479183 /* Build configuration list for PBXNativeTarget "SinaPullRefreshAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54D54441D32262500479183 /* Debug */,
+				F54D54451D32262500479183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F54D54461D32262500479183 /* Build configuration list for PBXNativeTarget "SinaPullRefreshAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54D54471D32262500479183 /* Debug */,
+				F54D54481D32262500479183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F54D541F1D32262500479183 /* SinaPullRefreshAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F54D54201D32262500479183 /* SinaPullRefreshAnimation.xcdatamodel */,
+			);
+			currentVersion = F54D54201D32262500479183 /* SinaPullRefreshAnimation.xcdatamodel */;
+			path = SinaPullRefreshAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F54D54081D32262500479183 /* Project object */;
+}
